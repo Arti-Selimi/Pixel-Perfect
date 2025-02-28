@@ -1,9 +1,7 @@
 import React from "react";
 import Box from "./box";
 
-type Props = {};
-
-export default function Main({}: Props) {
+export default function Main() {
   return (
     <div className="flex flex-col w-full gap-2">
       <Box
